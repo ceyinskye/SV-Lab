@@ -1,0 +1,196 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDR_WIDTH	.\param_def.v	/^`define  ADDR_WIDTH 8$/;"	c
+CMD_DATA_WIDTH	.\param_def.v	/^`define  CMD_DATA_WIDTH 32$/;"	c
+FIFO_MARGIN_WIDTH	.\param_def.v	/^`define FIFO_MARGIN_WIDTH 8$/;"	c
+FMT_END	.\formater.v	/^parameter FMT_END = 3'b110;$/;"	c
+FMT_IDLE	.\formater.v	/^parameter FMT_IDLE = 3'b111;$/;"	c
+FMT_REQ	.\formater.v	/^parameter FMT_REQ = 3'b000;$/;"	c
+FMT_SEND	.\formater.v	/^parameter FMT_SEND = 3'b010;$/;"	c
+FMT_START	.\formater.v	/^parameter FMT_START = 3'b011;$/;"	c
+FMT_WAIT_GRANT	.\formater.v	/^parameter FMT_WAIT_GRANT = 3'b001;$/;"	c
+IDLE	.\param_def.v	/^`define  IDLE  2'b00$/;"	c
+PAC_LEN_HIGH	.\param_def.v	/^`define PAC_LEN_HIGH 5$/;"	c
+PAC_LEN_LOW	.\param_def.v	/^`define PAC_LEN_LOW  3    $/;"	c
+PAC_LEN_WIDTH	.\param_def.v	/^`define PAC_LEN_WIDTH 3$/;"	c
+PRIO_HIGH	.\param_def.v	/^`define PRIO_HIGH 2$/;"	c
+PRIO_LOW	.\param_def.v	/^`define PRIO_LOW  1$/;"	c
+PRIO_WIDTH	.\param_def.v	/^`define PRIO_WIDTH 2$/;"	c
+READ	.\param_def.v	/^`define  READ  2'b01$/;"	c
+SLV0_RW_ADDR	.\param_def.v	/^`define SLV0_RW_ADDR 8'h00    \/\/Register address $/;"	c
+SLV0_RW_REG	.\param_def.v	/^`define SLV0_RW_REG 0$/;"	c
+SLV0_R_ADDR	.\param_def.v	/^`define SLV0_R_ADDR  8'h10$/;"	c
+SLV0_R_REG	.\param_def.v	/^`define SLV0_R_REG  3$/;"	c
+SLV1_RW_ADDR	.\param_def.v	/^`define SLV1_RW_ADDR 8'h04$/;"	c
+SLV1_RW_REG	.\param_def.v	/^`define SLV1_RW_REG 1$/;"	c
+SLV1_R_ADDR	.\param_def.v	/^`define SLV1_R_ADDR  8'h14$/;"	c
+SLV1_R_REG	.\param_def.v	/^`define SLV1_R_REG  4$/;"	c
+SLV2_RW_ADDR	.\param_def.v	/^`define SLV2_RW_ADDR 8'h08$/;"	c
+SLV2_RW_REG	.\param_def.v	/^`define SLV2_RW_REG 2$/;"	c
+SLV2_R_ADDR	.\param_def.v	/^`define SLV2_R_ADDR  8'h18$/;"	c
+SLV2_R_REG	.\param_def.v	/^`define SLV2_R_REG  5$/;"	c
+WRITE	.\param_def.v	/^`define  WRITE 2'b10          \/\/Register operation command$/;"	c
+a2f_data_i	.\formater.v	/^                 input    [31:0]            a2f_data_i,$/;"	p
+a2f_data_o	.\arbiter.v	/^output [31:0]            a2f_data_o,$/;"	p
+a2f_data_r	.\arbiter.v	/^reg [31:0]            a2f_data_r;$/;"	r
+a2f_data_s	.\mcdf.v	/^wire[31:0] 		a2f_data_s;$/;"	n
+a2f_id_r	.\arbiter.v	/^reg [1:0]             a2f_id_r;$/;"	r
+a2f_id_s	.\mcdf.v	/^wire[1:0]   	a2f_id_s;$/;"	n
+a2f_pkglen_sel_r	.\arbiter.v	/^reg [2:0] 				 a2f_pkglen_sel_r;$/;"	r
+a2f_val_i	.\formater.v	/^                 input                      a2f_val_i,$/;"	p
+a2f_val_o	.\arbiter.v	/^output                   a2f_val_o,$/;"	p
+a2f_val_r	.\arbiter.v	/^reg                   a2f_val_r;$/;"	r
+a2f_val_s	.\mcdf.v	/^wire    			a2f_val_s;$/;"	n
+a2s0_ack_s	.\mcdf.v	/^wire a2s0_ack_s;$/;"	n
+a2s1_ack_o	.\arbiter.v	/^output                   a2s1_ack_o,$/;"	p
+a2s1_ack_s	.\mcdf.v	/^wire a2s1_ack_s;$/;"	n
+a2s2_ack_s	.\mcdf.v	/^wire a2s2_ack_s;$/;"	n
+arbiter	.\arbiter.v	/^module arbiter($/;"	m
+buffer0_val_r	.\formater.v	/^reg buffer0_val_r;$/;"	r
+buffer1_val_r	.\formater.v	/^reg buffer1_val_r;$/;"	r
+buffer2_val_r	.\formater.v	/^reg buffer2_val_r;$/;"	r
+c_state	.\formater.v	/^reg [2:0]     c_state, n_state;$/;"	r
+ch0_data_i	.\mcdf.v	/^  input [31:0] ch0_data_i,$/;"	p
+ch0_ready_o	.\mcdf.v	/^  output  ch0_ready_o,$/;"	p
+ch1_data_i	.\mcdf.v	/^  input [31:0] ch1_data_i,$/;"	p
+ch2_data_i	.\mcdf.v	/^  input [31:0] ch2_data_i,$/;"	p
+ch2_ready_o	.\mcdf.v	/^  output  ch2_ready_o,$/;"	p
+chx_data_i	.\slave_fifo.v	/^input [31:0]                chx_data_i,             \/\/ Data input                 ---->From outside$/;"	p
+clk_i	.\arbiter.v	/^input                    clk_i,$/;"	p
+clk_i	.\formater.v	/^                 input                      clk_i,$/;"	p
+clk_i	.\mcdf.v	/^  input clk_i,$/;"	p
+clk_i	.\reg.v	/^input clk_i;$/;"	p
+clk_i	.\slave_fifo.v	/^input                       clk_i,                  \/\/ Clock input $/;"	p
+cmd_addr_i	.\reg.v	/^input [`ADDR_WIDTH-1:0]  cmd_addr_i; $/;"	p
+cmd_data_i	.\mcdf.v	/^  input [`CMD_DATA_WIDTH-1:0] cmd_data_i,$/;"	p
+cmd_data_i	.\reg.v	/^input [`CMD_DATA_WIDTH-1:0]  cmd_data_i;$/;"	p
+cmd_data_o	.\reg.v	/^output  [`CMD_DATA_WIDTH-1:0] cmd_data_o;$/;"	p
+cmd_data_reg	.\reg.v	/^reg [`CMD_DATA_WIDTH-1:0] cmd_data_reg;$/;"	r
+cmd_i	.\mcdf.v	/^  input [1:0]  cmd_i,$/;"	p
+cmd_i	.\reg.v	/^input [1:0] cmd_i;$/;"	p
+cnt_rec_r	.\formater.v	/^reg [5:0]     cnt_rec_r;$/;"	r
+cnt_sen_r	.\formater.v	/^reg [5:0]     cnt_sen_r;$/;"	r
+ctrl_regs	.\reg.v	/^   module ctrl_regs(	clk_i,$/;"	m
+data_cnt_s	.\slave_fifo.v	/^wire [5:0] data_cnt_s;$/;"	n
+empty_s	.\slave_fifo.v	/^wire full_s, empty_s, rd_en_s ;$/;"	n
+f2a_ack_o	.\formater.v	/^				         output                     f2a_ack_o,$/;"	p
+f2a_ack_s	.\mcdf.v	/^wire   			f2a_ack_s;$/;"	n
+f2a_id_req_i	.\arbiter.v	/^input                    f2a_id_req_i,$/;"	p
+f2a_id_req_s	.\mcdf.v	/^wire    			f2a_id_req_s;$/;"	n
+fmt_ack_r	.\formater.v	/^reg fmt_ack_r;$/;"	r
+fmt_chid_o	.\mcdf.v	/^  output [1:0] fmt_chid_o,$/;"	p
+fmt_data_o	.\formater.v	/^                output   [31:0]            fmt_data_o,$/;"	p
+fmt_data_r	.\formater.v	/^reg [31:0]    fmt_data_r;$/;"	r
+fmt_end_o	.\formater.v	/^                output                     fmt_end_o$/;"	p
+fmt_end_r	.\formater.v	/^reg fmt_end_r;$/;"	r
+fmt_fifo	.\formater.v	/^reg [31:0]    fmt_fifo [0:31];$/;"	r
+fmt_grant_i	.\formater.v	/^				        input                      fmt_grant_i,$/;"	p
+fmt_id_req_r	.\formater.v	/^reg fmt_id_req_r;$/;"	r
+fmt_length_o	.\formater.v	/^                output   [5:0]             fmt_length_o,                  $/;"	p
+fmt_length_o	.\mcdf.v	/^  output [5:0]  fmt_length_o,$/;"	p
+fmt_req_r	.\formater.v	/^reg fmt_req_r;$/;"	r
+fmt_send_r	.\formater.v	/^reg fmt_send_r;$/;"	r
+fmt_start_o	.\mcdf.v	/^  output fmt_start_o,$/;"	p
+fmt_start_r	.\formater.v	/^reg fmt_start_r;$/;"	r
+formater	.\formater.v	/^module formater($/;"	m
+full_s	.\slave_fifo.v	/^wire full_s, empty_s, rd_en_s ;$/;"	n
+id_sel_r	.\arbiter.v	/^reg [1:0]             id_sel_r;$/;"	r
+input	.\arbiter.v	/^input                    f2a_ack_i,$/;"	p
+input	.\arbiter.v	/^input                    rstn_i,$/;"	p
+input	.\arbiter.v	/^input                    slv0_req_i,$/;"	p
+input	.\arbiter.v	/^input                    slv1_val_i,$/;"	p
+input	.\arbiter.v	/^input                    slv2_req_i,$/;"	p
+input	.\arbiter.v	/^input  [1:0]             slv1_prio_i,$/;"	p
+input	.\arbiter.v	/^input  [31:0]            slv1_data_i,$/;"	p
+input	.\arbiter.v	/^input [2:0]					 slv2_pkglen_i,$/;"	p
+input	.\arbiter.v	/^input [2:0] 				 slv0_pkglen_i,$/;"	p
+input	.\formater.v	/^					       input 	  [2:0] 				  pkglen_sel_i,$/;"	p
+input	.\formater.v	/^                 input                      rstn_i,$/;"	p
+input	.\formater.v	/^                 input    [1:0]             a2f_id_i,$/;"	p
+input	.\mcdf.v	/^  input  ch0_vld_i,$/;"	p
+input	.\mcdf.v	/^  input  ch1_vld_i,$/;"	p
+input	.\mcdf.v	/^  input  ch2_vld_i,$/;"	p
+input	.\mcdf.v	/^  input  fmt_grant_i,$/;"	p
+input	.\mcdf.v	/^  input [`ADDR_WIDTH-1:0] cmd_addr_i,$/;"	p
+input	.\mcdf.v	/^  input rstn_i,$/;"	p
+input	.\slave_fifo.v	/^input                       a2sx_ack_i,             \/\/ Read ack                   ---->From Arbiter$/;"	p
+input	.\slave_fifo.v	/^input                       chx_valid_i,            \/\/ Data is valid From outside ---->From Outside$/;"	p
+input	.\slave_fifo.v	/^input                       rstn_i,                 \/\/ low level effective $/;"	p
+length_r	.\formater.v	/^reg [5:0]     length_r;$/;"	r
+margin_o	.\slave_fifo.v	/^output [5:0]                margin_o,               \/\/ Data margin                ---->To Registers$/;"	p
+mcdf	.\mcdf.v	/^module mcdf($/;"	m
+mem	.\reg.v	/^reg [`CMD_DATA_WIDTH-1:0] mem [5:0];$/;"	r
+mem	.\slave_fifo.v	/^reg [31:0] mem [0:31]; \/\/FIFO 32bits width and 32 deepth$/;"	r
+n_state	.\formater.v	/^reg [2:0]     c_state, n_state;$/;"	r
+output	.\arbiter.v	/^output                   a2s0_ack_o,$/;"	p
+output	.\arbiter.v	/^output                   a2s2_ack_o,$/;"	p
+output	.\arbiter.v	/^output [1:0]             a2f_id_o,$/;"	p
+output	.\arbiter.v	/^output [2:0] 				 a2f_pkglen_sel_o$/;"	p
+output	.\formater.v	/^                 output                     fmt_id_req_o,$/;"	p
+output	.\formater.v	/^                output                     fmt_req_o,$/;"	p
+output	.\formater.v	/^                output                     fmt_start_o,$/;"	p
+output	.\formater.v	/^                output   [1:0]             fmt_chid_o,                  $/;"	p
+output	.\mcdf.v	/^  output  ch1_ready_o,$/;"	p
+output	.\mcdf.v	/^  output [31:0] fmt_data_o,$/;"	p
+output	.\mcdf.v	/^  output fmt_end_o );$/;"	p
+output	.\mcdf.v	/^  output fmt_req_o,$/;"	p
+output	.\mcdf.v	/^  output[`CMD_DATA_WIDTH-1:0] cmd_data_o,$/;"	p
+output	.\slave_fifo.v	/^output reg                  chx_ready_o,            \/\/ Ready to accept data       ---->To outside$/;"	p
+pkglen_sel_s	.\mcdf.v	/^wire[2:0] 		pkglen_sel_s;$/;"	n
+rd_en_s	.\slave_fifo.v	/^wire full_s, empty_s, rd_en_s ;$/;"	n
+rd_pointer_r	.\slave_fifo.v	/^reg [5:0] rd_pointer_r;$/;"	r
+reg	.\slave_fifo.v	/^output reg                  slvx_req_o $/;"	p
+reg	.\slave_fifo.v	/^output reg                  slvx_val_o,             \/\/ read acknowledge Keep to handshake with Arbiter ----> To Arbiter$/;"	p
+reg	.\slave_fifo.v	/^output reg [31:0]           slvx_data_o,            \/\/ Data Output                ---->To Arbiter$/;"	p
+rstn_i	.\reg.v	/^input rstn_i;$/;"	p
+slave_fifo	.\slave_fifo.v	/^module slave_fifo ($/;"	m
+slv0_buffer_r	.\formater.v	/^reg [31:0]    slv0_buffer_r;$/;"	r
+slv0_data_i	.\arbiter.v	/^input  [31:0]            slv0_data_i,$/;"	p
+slv0_data_s	.\mcdf.v	/^wire [31:0]  slv0_data_s;$/;"	n
+slv0_en_o	.\reg.v	/^output   slv0_en_o;$/;"	p
+slv0_en_s	.\mcdf.v	/^wire  slv0_en_s;$/;"	n
+slv0_margin_i	.\reg.v	/^input [`FIFO_MARGIN_WIDTH-1:0] slv0_margin_i;$/;"	p
+slv0_margin_s	.\mcdf.v	/^wire [5:0] slv0_margin_s;$/;"	n
+slv0_pkglen_o	.\reg.v	/^output  [`PAC_LEN_WIDTH-1:0]  slv0_pkglen_o;$/;"	p
+slv0_pkglen_s	.\mcdf.v	/^wire  [`PAC_LEN_WIDTH-1:0]  slv0_pkglen_s;$/;"	n
+slv0_prio_i	.\arbiter.v	/^input  [1:0]             slv0_prio_i,$/;"	p
+slv0_prio_o	.\reg.v	/^output  [`PRIO_WIDTH-1:0]  slv0_prio_o;$/;"	p
+slv0_prio_s	.\mcdf.v	/^wire [`PRIO_WIDTH-1:0] slv0_prio_s;$/;"	n
+slv0_req_s	.\mcdf.v	/^wire slv0_req_s;$/;"	n
+slv0_val_i	.\arbiter.v	/^input                    slv0_val_i,$/;"	p
+slv0_val_s	.\mcdf.v	/^wire slv0_val_s;$/;"	n
+slv1_buffer_r	.\formater.v	/^reg [31:0]    slv1_buffer_r;$/;"	r
+slv1_data_s	.\mcdf.v	/^wire [31:0]  slv1_data_s;$/;"	n
+slv1_en_o	.\reg.v	/^output   slv1_en_o;$/;"	p
+slv1_en_s	.\mcdf.v	/^wire  slv1_en_s;$/;"	n
+slv1_margin_i	.\reg.v	/^input [`FIFO_MARGIN_WIDTH-1:0] slv1_margin_i;$/;"	p
+slv1_margin_s	.\mcdf.v	/^wire [5:0] slv1_margin_s;$/;"	n
+slv1_pkglen_i	.\arbiter.v	/^input [2:0]					 slv1_pkglen_i,$/;"	p
+slv1_pkglen_o	.\reg.v	/^output  [`PAC_LEN_WIDTH-1:0]  slv1_pkglen_o;$/;"	p
+slv1_pkglen_s	.\mcdf.v	/^wire  [`PAC_LEN_WIDTH-1:0]  slv1_pkglen_s;$/;"	n
+slv1_prio_o	.\reg.v	/^output  [`PRIO_WIDTH-1:0]  slv1_prio_o;$/;"	p
+slv1_prio_s	.\mcdf.v	/^wire [`PRIO_WIDTH-1:0] slv1_prio_s;$/;"	n
+slv1_req_i	.\arbiter.v	/^input                    slv1_req_i,$/;"	p
+slv1_req_s	.\mcdf.v	/^wire slv1_req_s;$/;"	n
+slv1_val_s	.\mcdf.v	/^wire slv1_val_s;$/;"	n
+slv2_buffer_r	.\formater.v	/^reg [31:0]    slv2_buffer_r;$/;"	r
+slv2_data_i	.\arbiter.v	/^input  [31:0]            slv2_data_i,$/;"	p
+slv2_data_s	.\mcdf.v	/^wire [31:0]  slv2_data_s;$/;"	n
+slv2_en_o	.\reg.v	/^output   slv2_en_o;$/;"	p
+slv2_en_s	.\mcdf.v	/^wire  slv2_en_s;$/;"	n
+slv2_margin_i	.\reg.v	/^input [`FIFO_MARGIN_WIDTH-1:0] slv2_margin_i;$/;"	p
+slv2_margin_s	.\mcdf.v	/^wire [5:0] slv2_margin_s;$/;"	n
+slv2_pkglen_o	.\reg.v	/^output  [`PAC_LEN_WIDTH-1:0]  slv2_pkglen_o;$/;"	p
+slv2_pkglen_s	.\mcdf.v	/^wire  [`PAC_LEN_WIDTH-1:0]  slv2_pkglen_s;$/;"	n
+slv2_prio_i	.\arbiter.v	/^input  [1:0]             slv2_prio_i,$/;"	p
+slv2_prio_o	.\reg.v	/^output  [`PRIO_WIDTH-1:0]  slv2_prio_o;$/;"	p
+slv2_prio_s	.\mcdf.v	/^wire [`PRIO_WIDTH-1:0] slv2_prio_s;$/;"	n
+slv2_req_s	.\mcdf.v	/^wire slv2_req_s;$/;"	n
+slv2_val_i	.\arbiter.v	/^input                    slv2_val_i,$/;"	p
+slv2_val_s	.\mcdf.v	/^wire slv2_val_s;$/;"	n
+slvx_en_i	.\slave_fifo.v	/^input                       slvx_en_i,              \/\/ Write enable To Registers  ---->To Register$/;"	p
+wr_pointer_r	.\slave_fifo.v	/^reg [5:0] wr_pointer_r;$/;"	r
